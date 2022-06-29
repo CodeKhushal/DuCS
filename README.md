@@ -1,2 +1,2 @@
 # DuCS
-This contains academics related schedule
+This contains academics related schedule and content.
