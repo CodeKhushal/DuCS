@@ -1,11 +1,11 @@
 %{
 	#include<stdio.h>
 	int lines = 0;
-	int words = 0;
+	int characters = 0;
 %}
 
 %%
-([ ])+ words++;
+([a-zA-Z]) characters++;
 \n lines++;
 %%
 
@@ -15,7 +15,8 @@ int main()
 	extern FILE *yyin;
 	yyin = fopen("file.text", "r");
 	yylex();
-	printf("\nNo. of words: %d\nNo. of lines: %d\n", words, lines);
+	printf("\nNo. of characters: %d\nNo. of lines: %d\n", characters, lines);
 	fclose(yyin);
 	return 0;
 }
+

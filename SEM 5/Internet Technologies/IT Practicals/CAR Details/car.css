@@ -1,0 +1,8 @@
+form{
+    border: black 2px solid;
+    border-radius: 2px;
+    width: fit-content;
+    padding: 10px;
+    color: rgb(51, 31, 4);
+    background-color: rgb(238, 167, 137);
+}
