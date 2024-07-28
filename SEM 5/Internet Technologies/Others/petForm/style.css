@@ -1,0 +1,88 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #7a28c7;
+    color: whitesmoke;
+    margin: 0 auto;
+    width: 70%;
+    align-items: center;
+}
+
+#logo{
+    width: 15%;
+    height: 200px;
+    border-radius: 50%;
+    display: inline;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+.heading{
+    display: inline;
+    text-align: center;
+    vertical-align: top;
+}
+
+form{
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+                0 6px 6px rgba(0, 0, 0, 0.23);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 2rem 2rem 2rem 0;
+    background-color: #9b003b;
+    padding: 4rem;
+}
+
+#typeLabel{
+    margin: 1rem 1rem 1rem 0;
+    font-size: 1.7rem;
+}
+
+
+.input{
+    width: 30%;
+    height: 2rem;
+    margin: 2rem 2rem 2rem 0;
+    background: #ffffff;
+    outline: none;
+    color: #064663;
+    border: none;
+    border-radius: 40px;
+}
+
+input{
+    padding: 1rem 2rem;
+}
+
+#submit,#reset{
+    padding: 1.2rem 3.5rem;
+    margin: 2rem 1.7rem 2rem 1rem;
+    border: none;
+    border-radius: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#submit{
+    background: #4FD3C4;
+    transition: all 0.2s ease-in-out;
+}
+#submit:hover{
+    cursor: pointer;
+    background: #77e7da;
+}
+
+#reset{
+    background: #D3DEDC;
+    transition: all 0.2s ease-in-out;
+}
+#reset:hover{
+    cursor: pointer;
+    background: #dedfde;
+}
